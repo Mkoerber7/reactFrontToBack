@@ -41,7 +41,7 @@ export default class ApiCaller extends Component {
 	}
 
 	/*
-		9. 
+		8. 
 		We need to create a function that'll set fire an internal API call that then fires our
 		external API call. Don't forget to bind your function in your constructor!!!
 
@@ -59,7 +59,7 @@ export default class ApiCaller extends Component {
 			});
 		{
 			/*
-				10.
+				9.
 				We want to return back some data from our API so we'll use .then to do just that.
 				We'll then set the state of our weather key in this.state to result.data.daily.summary.
 				Then we can display some information to our lovely users. 
@@ -99,13 +99,13 @@ export default class ApiCaller extends Component {
 				/>
 
 				{/* 
-					11.
+					10.
 					Now we need to create a button that actually fires that function
 				*/}
 
 				<button onClick={this.getApiData}> Get Api Data </button>
 				{/* 
-					12.
+					11.
 					Let's set up an h3 tag that displays this.state.weather. This'll only
 					show data once our API gets back some information.
 
