@@ -12,7 +12,8 @@
 // the response to the front end.
 
 // 1.
-//	We need to add our dependencies!
+//	We need to add our dependencies IN THE SERVER FOLDER!
+//	  yarn init -y
 //    yarn add express cors body-parser axios
 // 	  or
 // 	  npm install --save express cors body-parser axios
