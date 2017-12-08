@@ -44,9 +44,10 @@ let getApiData = (req, res) => {
 	// 13.
 	//	The DarkSky API follows this general skeleton:
 	//	https://api.darksky.net/forecast/[apiKey]/[latitude],[longitude]
-	//								      ^				^
-	//									Step 11        ^^^
-	//												 Req.body.location
+	//	^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^     ^		^^^^^^^^
+	//		^^^^^^^^^^^^^^^^^^	  Step 11         ^^^^
+	//		   base API url				Data passed from our input component in react 
+	//							through the axios.post('/api/getApiData', {location: req.body.location}      
 	//
 	//	The data that we'll be passing from our input box in our React Component will be
 	//	the req.body.
