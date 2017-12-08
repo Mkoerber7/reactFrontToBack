@@ -2,6 +2,7 @@
 
 # API Key Hide
 # This is where you should put your api key.
+config.js
 
 # dependencies
 /node_modules
